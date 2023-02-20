@@ -1,0 +1,41 @@
+.tr{
+    border-bottom: 3px solid #FBB03B;
+}
+
+.riga:hover{
+    background-color: rgb(145, 152, 229, 0.4);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.riga{
+}
+
+.image{
+    width: 150px;
+    height: 120px;
+}
+
+.th{
+    color: #FBB03B;
+    font-size: 20px;
+}
+.left{
+    text-align: left;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.price{
+    width: 20%;
+}
+
+.nome{
+    font-weight: bold;
+    width: 50%;
+}
+
+

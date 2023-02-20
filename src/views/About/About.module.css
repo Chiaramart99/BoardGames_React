@@ -1,0 +1,23 @@
+.title{
+    color: #FBB03B;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    margin-top: 16px;
+
+}
+
+.circle{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: #FBB03B;
+    text-align: center;
+    margin-top: 17px;
+
+}

@@ -1,0 +1,61 @@
+.navBar {
+    background: #9198e5;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    margin-bottom: 30px;
+}
+
+.voci{
+    margin-top: 30px;
+}
+
+#collapse{
+    float: right;
+    margin-top: 27px;
+
+}
+
+.logo {
+    max-width: 75px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+.navItem a {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+
+.active{
+    color: #ffffff;
+    background-color: #FBB03B;
+    border-radius: 15px;
+}
+
+.navItem a:hover {
+    color: #ffffff;
+    background-color: #FBB03B;
+    border-radius: 15px;
+
+}
+
+@media only screen and (max-width: 764px) {  /*fatto per togliere l'hover nel telefono */
+    .navItem a:hover {
+        color: #FFFFFF;
+        background-color: #9198e5;
+    }
+    .navItem a{
+        width: 90%;
+    }
+    .voci{
+        margin-top: 8px;
+    }
+    .active{
+        background-color: #9198e5;
+    }
+}

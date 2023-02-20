@@ -1,0 +1,82 @@
+.image{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 14px;
+}
+
+.centro{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.h1{
+    padding: 8px 0;
+    background: rgb(251,176,59);
+    background: radial-gradient(circle, rgba(251,176,59,1) 0%, rgba(145,152,229,1) 100%);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 310px;
+    width: 27%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 16px;
+    background-color: #9198e5;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.icon{
+    width: 140px;
+    height: 140px;
+}
+
+.icon2{
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.p{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+    .table{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+
+

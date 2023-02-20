@@ -1,0 +1,141 @@
+.card{
+    height: 370px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 3px solid #9198e5;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 14px 0 rgb(145, 152, 229);  /*rgb(145, 152, 229)*/ /* rgba(0,0,0,0.2);*/
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+.flipcard {
+    width: 27%;
+    perspective: 1000px;
+    height: auto;
+}
+
+.flipcard:hover .card{
+    transform: rotateY(180deg);
+
+}
+
+.flipcardFront, .flipcardBack {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flipcardBack {
+    width: 195px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    transform: rotateY(180deg);
+}
+
+.image{
+    width: 200px;
+    height: 150px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.name{
+    margin-top: 32px;
+}
+
+.descrizione{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 13;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 576px) {
+    .flipcardBack {
+        display: none;
+    }
+
+    .flipcard:hover .card{
+        transform: none;
+    }
+    .flipcard{
+        width: 90%;
+    }
+
+    .card{
+        margin-bottom: 30px;
+    }
+
+    .name, .price{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 786px) {
+    .flipcardBack {
+        display: none;
+    }
+
+    .flipcard:hover .card{
+        transform: none;
+    }
+    .flipcard{
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .flipcardBack {
+        display: none;
+    }
+
+    .flipcard:hover .card{
+        transform: none;
+    }
+    .flipcard{
+        width: 40%;
+    }
+
+    .card{
+        margin-bottom: 30px;
+    }
+
+    .name, .price{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .flipcardBack {
+        right: 0px;
+
+    }
+
+    .flipcard{
+        width: 27%;
+    }
+
+    .card{
+        margin-bottom: 30px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .name, .price{
+        margin-top: 20px;
+    }
+}

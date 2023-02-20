@@ -1,0 +1,51 @@
+.switch{
+    display: flex;
+    margin: 30px 0 50px;
+    justify-content: center;
+}
+
+.button{
+    border: 3px solid #FBB03B;
+    font-weight: bold;
+    padding:4px 36px;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+}
+
+.button:hover{
+    background-color: #FBB03B;
+    color: #FFFFFF;
+}
+
+.button.active {
+    background-color: #FBB03B;
+    color: #FFFFFF;
+}
+
+
+.numero{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left:auto ;
+    margin-right:auto ;
+    border-radius: 50%;
+    background: #9198e5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    color: #FFFFFF;
+}
+
+.centro{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
