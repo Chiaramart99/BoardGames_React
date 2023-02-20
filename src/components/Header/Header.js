@@ -13,7 +13,6 @@ import style from "./Header.module.css";
 function Header(props) {
     const {logo, navItems} = props;
 
-    // menu mobile, se il menu è espanso (non mobile) non hanno effetto
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
